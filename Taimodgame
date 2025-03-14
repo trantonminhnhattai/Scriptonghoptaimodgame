@@ -1,0 +1,122 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Tài mod game",
+         Animation = "YT tài mod game"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "https://fnote.net/notes/BBGnD9",
+        Keys = {"taimodgame"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=14118557209",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+
+local Tab1o = MakeTab({Name = "welcome"})
+
+-------TOGGLE
+
+Toggle = AddToggle(Tab1o, {
+      Name = "hello ",
+      Default = false,
+      Callback = function()
+     end
+    })Toggle = AddToggle(Tab1o, {
+      Name = "cảm ơn vì xài scrip",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+------ Tab
+
+local Tab2o = MakeTab({Name = "scrip tổng hợp"})
+
+------- BUTTON
+
+AddButton(Tab2o, {
+     Name = "redz hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  end
+  })AddButton(Tab2o, {
+     Name = "W-azure",
+    Callback = function()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })AddButton(Tab2o, {
+     Name = "tsuo hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+  })AddButton(Tab2o, {
+     Name = "HIRU HUB",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
+  end
+  })AddButton(Tab2o, {
+     Name = "xero hub",
+    Callback = function()
+
+getgenv().Team = "Marines"
+
+getgenv().Hide_Menu = false
+
+getgenv().Auto_Execute = false
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+  })AddButton(Tab2o, {
+     Name = "min hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinSeHubVn"))()
+end
+  })
+
+------ Tab
+
+     local Tab3o = MakeTab({Name = "hop sv và vật phẩm"})
+
+------- BUTTON
+
+AddButton(Tab3o, {
+     Name = "hop boss datthg",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatTHGHopBoss"))()
+end
+  })AddButton(Tab3o, {
+     Name = "hop boss teddy",
+    Callback = function()
+end
+  })AddButton(Tab3o, {
+     Name = "hop sword min gaming",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
+end
+  })
